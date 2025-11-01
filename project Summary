@@ -1,0 +1,44 @@
+# Sensor Fault Detection – Day 1 Analysis
+
+## 🎯 Objective
+The goal of this project is to detect irregularities or faults in sensor readings over time using Python data analysis techniques. This is part of my ongoing practice to strengthen my analytical and technical interview readiness.
+
+## 🧩 Dataset
+- **File:** `sensor-fault-detection.csv`
+- **Columns:** Timestamp | Sensor_ID | Value  
+- Contains over 62,000 records of sensor readings.
+
+## ⚙️ Tools & Libraries Used
+- Python
+- Pandas
+- Matplotlib
+- NumPy
+
+## 🧠 Approach
+1. Loaded and explored the dataset using Pandas.
+2. Checked for missing values and data consistency.
+3. Visualized sensor readings over time to observe trends.
+4. Identified smooth patterns with occasional spikes — potential signs of faults or abnormal readings.
+
+## 📊 Visualization
+Below are sample plots showing normal and abnormal sensor behaviors:
+
+![Sensor Reading Visualization] (plt.savefig('boxplot.png').png
+![Sensor Spike Example](outlier.png)
+
+## 🔍 Findings
+- Each sensor produced approximately 149 readings.
+- The majority of readings were stable over time.
+- Sudden spikes in values indicate possible sensor faults or environmental anomalies.
+- Data can be further analyzed using rolling averages or statistical thresholds to flag faulty sensors automatically.
+
+## 🚀 Next Steps
+- Perform anomaly detection using statistical methods (Z-score, IQR).
+- Build a simple ML model to classify faulty vs normal sensors.
+- Deploy the model for real-time fault detection.
+
+---
+
+### ✨ Author
+**Chinaza Ben Akuegbonwu (@Akuben-dta)**  
+Mechatronics Engineer | Data Analyst | AI Enthusiast
